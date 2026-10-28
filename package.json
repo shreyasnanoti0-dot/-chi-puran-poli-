@@ -1,0 +1,23 @@
+{
+  "name": "puran-poli-ordering-platform",
+  "version": "1.0.0",
+  "description": "Puran Poli online ordering website with admin dashboard and SMS notifications",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "twilio": "^5.4.4",
+    "connect-sqlite3": "^0.9.13",
+    "bcryptjs": "^2.4.3"
+  }
+}
